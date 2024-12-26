@@ -1,0 +1,26 @@
+<mvc:View controllerName="theapp.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:tnt="sap.tnt"
+    xmlns:l="sap.ui.layout"
+    xmlns:f="sap.ui.layout.form">
+    <Page id="" title="Login Page">
+        <content>
+            <tnt:ToolHeader>
+                <!-- <MenuButton type="Default" icon="sap-icon://menu">
+                    <Menu>
+                        <MenuItem text="Login"/>
+                        <MenuItem text="SplitApp"/>
+                        <MenuItem text="Panel"/>
+                        <MenuItem text="Select"/>
+                        <MenuItem text="ComboBox"/>
+                        <MenuItem text="Fragment"/>
+                    </Menu>
+                </MenuButton> -->
+                
+                    
+            </tnt:ToolHeader>
+            
+        </content>
+    </Page>
+</mvc:View>

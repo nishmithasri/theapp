@@ -1,0 +1,45 @@
+<mvc:View controllerName="theapp.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:tnt="sap.tnt"
+    xmlns:l="sap.ui.layout"
+    xmlns:f="sap.ui.layout.form">
+    <Page id="" title="Login Page">
+        <content>
+            <tnt:ToolHeader>
+                <!-- <MenuButton type="Default" icon="sap-icon://menu">
+                    <Menu>
+                        <MenuItem text="Login"/>
+                        <MenuItem text="SplitApp"/>
+                        <MenuItem text="Panel"/>
+                        <MenuItem text="Select"/>
+                        <MenuItem text="ComboBox"/>
+                        <MenuItem text="Fragment"/>
+                    </Menu>
+                </MenuButton> -->
+                <VBox justifyContent="End" alignItems="End">
+                    <IconTabBar>
+                        <items>
+                            <IconTabFilter text="Your Profile" icon="sap-icon://person-placeholder">
+                                <content>
+                                    <Text text="Nishmitha"/>
+                                </content>
+                            </IconTabFilter>
+                        </items>
+                    </IconTabBar>
+                </VBox>
+            </tnt:ToolHeader>
+            <VBox justifyContent="Center" alignContent="Center" alignItems="Center" fitContainer="true">
+                <f:SimpleForm id="SimpleFormDisplay354" editable="false" layout="ResponsiveGridLayout" title="" labelSpanXL="3" labelSpanL="3" labelSpanM="3" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="4" emptySpanL="4" emptySpanM="4" emptySpanS="0" columnsXL="1" columnsL="1" columnsM="1" singleContainerFullSize="false">
+                    <f:content>
+                        <Label text="Username" required="true" />
+                        <Input id="id1" width="15rem" />
+                        <Label text="Password" required="true"/>
+                        <Input id="id2" width="15rem" showValueHelp="true" valueHelpIconSrc="sap-icon://show" valueHelpRequest="onPassword"/>
+				        <Button type="Attention" text="Login" press="onLogin" width="10rem" />
+                    </f:content>
+                </f:SimpleForm>
+            </VBox>
+        </content>
+    </Page>
+</mvc:View>
